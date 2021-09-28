@@ -1,0 +1,40 @@
+void setup(){
+  frameRate(60);
+}
+void settings (){
+  size(900,600);
+}
+void draw (){
+  background(50,50,200);
+  strokeWeight(0);
+  pushMatrix();
+  translate(0,0);
+  rotate(frameCount*0.0);
+  fill(128,128,128);
+  square(700,300,300);
+  fill(70,200,70);
+  square(-5000,570,10000);
+  fill(90,50,50);
+  rect(200,574,50,-170);
+  fill(70,200,70);
+  circle(225,400,150);
+  fill(255,255,255);
+  circle(285,581,10);
+  circle(310,590,10);
+  circle(335,581,10);
+  fill(240,240,100);
+  circle(870,50,150);
+  fill(120,70,70);
+  square(620,420,150);
+  fill(0);
+  square(640,450,20);
+  square(680,450,20);
+  square(720,450,20);
+  square(640,490,20);
+  square(680,490,20);
+  square(720,490,20);
+  rect(650,545,16,25);
+  fill(70,70,70);
+  triangle(600,420,790,420,695,340);
+  popMatrix();
+}
