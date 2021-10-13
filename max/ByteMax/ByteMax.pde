@@ -11,6 +11,7 @@ while (loop = true)
   println(a);
   a-=1;
   println(a);
+  // Det er HARAM at bruge kommandoen break !!! :) 
   break;
   }
 }
